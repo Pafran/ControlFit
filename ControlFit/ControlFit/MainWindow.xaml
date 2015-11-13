@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ControlFit"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+      Title="MainWindow" Height="187" Width="203" MinHeight="250" MinWidth="300">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBox HorizontalAlignment="Center" Height="25" Margin="0,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <TextBox HorizontalAlignment="Center" Height="25" Margin="0,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <TextBlock HorizontalAlignment="Left" Margin="35,55,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="35,105,0,0" TextWrapping="Wrap" Text="Pass" VerticalAlignment="Top"/>
+        <Button Content="Aceptar" HorizontalAlignment="Right" Margin="0,160,10,0" VerticalAlignment="Top" Width="100" Height="25" Click="Button_Click"/>
+        <Label Content="Iniciar sesión" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="80"/>
+        <Button Content="Registrarse" HorizontalAlignment="Right" Margin="0,160,140,0" VerticalAlignment="Top" Width="100" Height="25" Click="Button_Click_1"/>
     </Grid>
 </Window>
